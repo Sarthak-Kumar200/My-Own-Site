@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --body-background: #f1e7dc;
+    --text-color: #333230;
+}
+
+
+body {
+    background-color: var(--body-background);
+}
+
+.profiletop {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 2%;
+    color: var(--text-color);
+    font-family: sans-serif;
+}
+
+.profiletop img {
+    height: 70px;
+    width: 70px;
+    border-radius: 50px;
+}
+
+.sociallinks {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 40px;
+    padding-bottom: 40px;
+}
+
+.sociallinks-inner {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 0 20px;
+
+}
+
+.sociallinks a {
+    text-decoration: none;
+    color: var(--text-color);
+    white-space: nowrap;
+}
+
+.aboutme {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    /* Centers the text lines */
+    margin-top: 40px;
+    /* Consistent spacing from the top profile */
+    padding: 0 20px;
+    /* Prevents text from touching screen edges on mobile */
+    font-family: sans-serif;
+    line-height: 1.6;
+    /* Makes the paragraph easier to read */
+}
